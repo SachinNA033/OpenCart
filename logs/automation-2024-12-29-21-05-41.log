@@ -1,0 +1,16 @@
+2024-12-29 21:05:42 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\sachin\Desktop\Automation&Manual_Testing\Projects\My_Opencart01\grid-docker.xml
+
+2024-12-29 21:05:42 INFO  TC001AccountRegistrationTest:50 - Execution environment: remote
+2024-12-29 21:05:42 INFO  TC001AccountRegistrationTest:68 - Setting up remote WebDriver for browser: chrome on OS: linux
+2024-12-29 21:05:58 INFO  TC001AccountRegistrationTest:17 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-12-29 21:05:58 ERROR TC001AccountRegistrationTest:64 - Test failed: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2024-12-29 21:05:58 INFO  TC001AccountRegistrationTest:68 - ***** Finished TC001_AccountRegistrationTest *****
+2024-12-29 21:06:00 INFO  TC002_LoginTest:50 - Execution environment: remote
+2024-12-29 21:06:00 INFO  TC002_LoginTest:68 - Setting up remote WebDriver for browser: chrome on OS: linux
+2024-12-29 21:06:02 INFO  TC002_LoginTest:15 - **** Starting TC_002_LoginTest  ****
+2024-12-29 21:06:03 INFO  TC002_LoginTest:22 - clicked on myaccount link on the home page..
+2024-12-29 21:06:04 INFO  TC002_LoginTest:24 - clicked on login link under myaccount..
+2024-12-29 21:06:04 INFO  TC002_LoginTest:28 - Entering valid email and password..
+2024-12-29 21:06:05 INFO  TC002_LoginTest:32 - clicked on ligin button..
+2024-12-29 21:06:06 INFO  TC002_LoginTest:46 - **** Finished TC_002_LoginTest  ****

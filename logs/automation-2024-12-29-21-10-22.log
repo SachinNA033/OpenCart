@@ -1,0 +1,13 @@
+2024-12-29 21:10:23 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\sachin\Desktop\Automation&Manual_Testing\Projects\My_Opencart01\grid-docker.xml
+
+2024-12-29 21:10:23 INFO  TC002_LoginTest:50 - Execution environment: remote
+2024-12-29 21:10:23 INFO  TC002_LoginTest:68 - Setting up remote WebDriver for browser: chrome on OS: linux
+2024-12-29 21:10:28 INFO  TC002_LoginTest:15 - **** Starting TC_002_LoginTest  ****
+2024-12-29 21:10:28 INFO  TC002_LoginTest:22 - clicked on myaccount link on the home page..
+2024-12-29 21:10:29 INFO  TC002_LoginTest:24 - clicked on login link under myaccount..
+2024-12-29 21:10:29 INFO  TC002_LoginTest:28 - Entering valid email and password..
+2024-12-29 21:10:30 INFO  TC002_LoginTest:32 - clicked on ligin button..
+2024-12-29 21:10:30 INFO  TC002_LoginTest:46 - **** Finished TC_002_LoginTest  ****
+2024-12-29 21:10:30 INFO  TC_003_LoginDDT:50 - Execution environment: remote
+2024-12-29 21:10:30 INFO  TC_003_LoginDDT:68 - Setting up remote WebDriver for browser: chrome on OS: linux

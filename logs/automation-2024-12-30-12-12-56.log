@@ -1,0 +1,5 @@
+2024-12-30 12:12:56 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\sachin\Desktop\Automation&Manual_Testing\Projects\My_Opencart01\master.xml
+
+2024-12-30 12:12:57 INFO  TC002_LoginTest:50 - Execution environment: remote
+2024-12-30 12:12:57 INFO  TC002_LoginTest:68 - Setting up remote WebDriver for browser: chrome on OS: Windows

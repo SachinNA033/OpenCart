@@ -1,0 +1,9 @@
+2024-12-30 15:31:54 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\sachin\Desktop\Eclips-2024\Workspace\OpenCart\master.xml
+
+2024-12-30 15:32:02 INFO  TC002_LoginTest:15 - **** Starting TC_002_LoginTest  ****
+2024-12-30 15:32:03 INFO  TC002_LoginTest:22 - clicked on myaccount link on the home page..
+2024-12-30 15:32:04 INFO  TC002_LoginTest:24 - clicked on login link under myaccount..
+2024-12-30 15:32:04 INFO  TC002_LoginTest:28 - Entering valid email and password..
+2024-12-30 15:32:05 INFO  TC002_LoginTest:32 - clicked on ligin button..
+2024-12-30 15:32:05 INFO  TC002_LoginTest:46 - **** Finished TC_002_LoginTest  ****

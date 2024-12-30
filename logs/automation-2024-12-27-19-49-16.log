@@ -1,0 +1,6 @@
+2024-12-27 19:49:27 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\sachin\Desktop\Automation&Manual_Testing\Projects\My_Opencart01\master.xml
+
+2024-12-27 19:53:34 INFO  TC001AccountRegistrationTest:17 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-12-27 19:53:34 ERROR TC001AccountRegistrationTest:64 - Test failed: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2024-12-27 19:53:34 INFO  TC001AccountRegistrationTest:68 - ***** Finished TC001_AccountRegistrationTest *****

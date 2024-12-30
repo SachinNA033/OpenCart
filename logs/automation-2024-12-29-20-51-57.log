@@ -1,0 +1,7 @@
+2024-12-29 20:51:57 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\sachin\Desktop\Automation&Manual_Testing\Projects\My_Opencart01\grid-docker.xml
+
+2024-12-29 20:51:58 INFO  TC001AccountRegistrationTest:50 - Execution environment: remote
+2024-12-29 20:51:58 INFO  TC001AccountRegistrationTest:68 - Setting up remote WebDriver for browser: chrome on OS: Linux
+2024-12-29 20:54:59 INFO  TC002_LoginTest:50 - Execution environment: remote
+2024-12-29 20:54:59 INFO  TC002_LoginTest:68 - Setting up remote WebDriver for browser: chrome on OS: Linux

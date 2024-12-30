@@ -1,0 +1,11 @@
+2024-12-30 12:11:51 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\sachin\Desktop\Automation&Manual_Testing\Projects\My_Opencart01\master.xml
+
+2024-12-30 12:11:52 INFO  TC002_LoginTest:50 - Execution environment: local
+2024-12-30 12:11:52 INFO  TC002_LoginTest:129 - Setting up local WebDriver for browser: edge
+2024-12-30 12:12:13 INFO  TC002_LoginTest:15 - **** Starting TC_002_LoginTest  ****
+2024-12-30 12:12:13 INFO  TC002_LoginTest:22 - clicked on myaccount link on the home page..
+2024-12-30 12:12:15 INFO  TC002_LoginTest:24 - clicked on login link under myaccount..
+2024-12-30 12:12:15 INFO  TC002_LoginTest:28 - Entering valid email and password..
+2024-12-30 12:12:18 INFO  TC002_LoginTest:32 - clicked on ligin button..
+2024-12-30 12:12:18 INFO  TC002_LoginTest:46 - **** Finished TC_002_LoginTest  ****
