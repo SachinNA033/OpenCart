@@ -17,6 +17,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
@@ -28,9 +29,10 @@ import org.apache.logging.log4j.LogManager;  //Log4j
 import org.apache.logging.log4j.Logger;  //Log4j
 
 
-public class BaseClass{ //Old BaseClass
+public class BaseClass {
 
-public static WebDriver driver;
+//public static WebDriver driver; //for capture screenshot make it static other wise remove static
+public WebDriver driver; 
 public Logger logger;  //Log4j
 public Properties p;
 	
@@ -45,7 +47,6 @@ public Properties p;
 				
 		logger=LogManager.getLogger(this.getClass());  //lOG4J2
 				
-		//Below if condition is to run the test on Remote system
 		if(p.getProperty("execution_env").equalsIgnoreCase("remote"))
 		{
 			DesiredCapabilities capabilities=new DesiredCapabilities();
@@ -53,14 +54,16 @@ public Properties p;
 			//os
 			if(os.equalsIgnoreCase("windows"))
 			{
-				capabilities.setPlatform(Platform.WIN11);
+				capabilities.setPlatform(Platform.WINDOWS);
+			}
+			else if(os.equalsIgnoreCase("linux"))
+			{
+				capabilities.setPlatform(Platform.LINUX);
+				
 			}
 			else if (os.equalsIgnoreCase("mac"))
 			{
 				capabilities.setPlatform(Platform.MAC);
-			}
-			else if (os.equalsIgnoreCase("linux")) {
-			    capabilities.setPlatform(Platform.LINUX);
 			}
 			else
 			{
@@ -80,7 +83,7 @@ public Properties p;
 			driver=new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),capabilities);
 		}
 		
-		//Below code is to run the test on Local system		
+				
 		if(p.getProperty("execution_env").equalsIgnoreCase("local"))
 		{
 
@@ -126,7 +129,6 @@ public Properties p;
 		return (generatedstring+"@"+generatednumber);
 	}
 	
-	//Below code it to take the screenshot of the failed step
 	public String captureScreen(String tname) throws IOException {
 
 		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
